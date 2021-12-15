@@ -3,7 +3,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'c(@u15zy8a0)@ku1csp9q(y)e+s(sqkjhqvpk3%l!v$ce7d64='
 DEBUG = True
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 

@@ -15,7 +15,7 @@ function App() {
       <Router>
           <Route exact path="/" render={() => <Home />} />
           <Route exact path="/search/word" render={() => <Definition />} />
-          <Route exact path="/bookmarks" render={() => <Bookmarks />} />
+          <Route exact path=" /bookmarks" render={() => <Bookmarks />} />
       </Router>
     </ThemeProvider>
   );
