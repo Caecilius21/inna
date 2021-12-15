@@ -7,7 +7,7 @@ import {useHistory} from 'react-router-dom'
 
 const Home = () => {
   const [word, setWord] = useState("")
-  const history = useHistory()
+  const history = useHistory()  
 
   const handleSubmit = (event) => {
     event.preventDefault()
@@ -36,8 +36,8 @@ const Home = () => {
       >
         Inna Dictionary
       </Typography>
-      <Typography>Azul, this is inna, manikantgit aywi henna?</Typography>
-      <Typography>inghayi umarg nnek</Typography>
+      <Typography>Azul, this is inna, manikantgit aywi ḥenna?</Typography>
+      <Typography>inɣayi umarg-nnek</Typography>
       <Box sx={{
         width:'360px'
       }}>
