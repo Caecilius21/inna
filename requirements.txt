@@ -2,7 +2,6 @@ absl-py==0.9.0
 aiocontextvars==0.2.2
 amqp==2.5.0
 apache-beam==2.17.0
-apturl==0.5.2
 asn1crypto==0.24.0
 AssimpCy==1.1.1
 astor==0.8.1
